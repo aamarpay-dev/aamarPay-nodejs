@@ -434,7 +434,7 @@ When customer redirect with payment URL then customer will get the
  payment methods.
 </div>
 <div style="font-size: 16px; margin-top: 15px">
-<label style="font-weight: bold">NOTE: </label> <b>For sandbox only bKash payment method is available, when you
+<b>NOTE: For sandbox only bKash payment method is available, when you
 initiate payment with live you will get all payment method.</b>
 </div>
 
@@ -554,10 +554,10 @@ All return variable given below :
 Same data you will be get as a POST method in your fail_url when the transaction
 is failed.
 </div>
-<div style="font-size: 16px; margin-top: 10px; font-weight: bold">
+<b style="font-size: 16px; margin-top: 10px">
 Note: We do not submit any data in cancel_url, it will be your product page link or
 your home page link.
-</div>
+</b>
 <div style="font-size: 16px; margin-top: 10px;">
 If you have any query you can contact with us at <i style="color: blue">support@aamarpay.com</i>
 <br/>
