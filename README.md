@@ -37,9 +37,7 @@ signature_key: "YOUR SIGNATURE KEY"
 And hit the API: <i style="margin-left: 10px; margin-right: 10px">https://secure.aamarpay.com/jsonpost.php</i> with your json data.
 </div>
 
-<div style="margin-top: 15px; font-size: 28px; margin-bottom: 10px">
-Parameters
-</div>
+<h2 style="font-size: 28px">Parameters</h2>
 
 <table style="display: table">
 <thead>
@@ -351,9 +349,7 @@ Yes
 </tr>
 </tbody>
 </table>
-<div style="font-size: 28px; margin-top: 15px">
-Examples
-</div>
+<h2 style="font-size: 28px">Example</h2>
 <div>
 <div style="font-size: 20px; margin-top: 10px">
 In success request :
