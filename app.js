@@ -33,8 +33,6 @@ const aamarPayPayment = async (formData) => {
   }
 }
 
-aamarPayPayment(formData);
-
 module.exports = {
   aamarPayPayment
 }
