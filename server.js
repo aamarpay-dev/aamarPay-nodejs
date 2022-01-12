@@ -80,5 +80,5 @@ app.post("/callback", async (req, res, next) => {
 const port = 3900;
 
 app.listen(port, () => {
-  console.log(`Server is running in mode on port: ${port}`.green.bold);
+  console.log(`Server is running on port: ${port}`.green.bold);
 });
