@@ -22,8 +22,8 @@ app.post("/payment", async (req, res, next) => {
     cus_phone,
     amount,
     tran_id: uuid(),
-    signature_key: "dbb74894e82415a2f7ff0ec3a97e4183",
-    store_id: "aamarpaytest",
+    signature_key: "28c78bb1f45112f5d40b956fe104645100",
+    store_id: "aamarpay",
     currency,
     desc,
     cus_add1: "53, Gausul Azam Road, Sector-14, Dhaka, Bangladesh",
@@ -36,7 +36,7 @@ app.post("/payment", async (req, res, next) => {
     type: "json", //This is must required for JSON request
   };
   const { data } = await axios.post(
-    "https://sandbox.aamarpay.com/jsonpost.php",
+    "https://secure.aamarpay.com/jsonpost.php",
     formData
   );
   if (data.result !== "true") {
