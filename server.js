@@ -49,7 +49,6 @@ app.post("/payment", async (req, res, next) => {
       errorMessage,
     });
   }
-
   res.status(301).redirect(data.payment_url);
 });
 
