@@ -1,3 +1,4 @@
+const baseUrl = "https://node-sample.aamarpay.dev/"
 const express = require("express");
 const axios = require("axios");
 require("colors");
@@ -30,9 +31,9 @@ app.post("/payment", async (req, res, next) => {
     cus_add2: "Dhaka",
     cus_city: "Dhaka",
     cus_country: "Bangladesh",
-    success_url: "http://localhost:3900/callback",
-    fail_url: "http://localhost:3900/callback",
-    cancel_url: "http://localhost:3900/callback",
+    success_url: `${baseUrl}callback`,
+    fail_url: `${baseUrl}callback`,
+    cancel_url: `${baseUrl}callback`,
     type: "json", //This is must required for JSON request
   };
   const { data } = await axios.post(
